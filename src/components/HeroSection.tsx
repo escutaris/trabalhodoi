@@ -9,9 +9,6 @@ const HeroSection = () => (
         {/* Text Column */}
         <ScrollReveal>
           <div className="space-y-6">
-            <span className="inline-block rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 font-body text-xs font-medium uppercase tracking-widest text-gold">
-              Lançamento 2025
-            </span>
             <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
               Quando o Trabalho Dói
             </h1>
