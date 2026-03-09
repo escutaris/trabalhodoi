@@ -30,6 +30,24 @@ const AboutAuthorSection = () => (
             <blockquote className="border-l-2 border-gold pl-5 font-serif text-base italic leading-relaxed text-foreground/80">
               "Minha missão é capacitar indivíduos e organizações a reconhecerem os sinais, quebrarem o tabu e implementarem práticas que realmente façam a diferença."
             </blockquote>
+            <div className="flex gap-4 pt-2">
+              <a
+                href="https://www.instagram.com/draanapaulateixeira/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-gold/10 text-gold transition-colors hover:bg-gold hover:text-white"
+              >
+                <Instagram size={20} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/draanapaulateixeira/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-gold/10 text-gold transition-colors hover:bg-gold hover:text-white"
+              >
+                <Linkedin size={20} />
+              </a>
+            </div>
           </div>
         </ScrollReveal>
       </div>
