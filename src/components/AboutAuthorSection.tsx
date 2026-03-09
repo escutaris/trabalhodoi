@@ -1,5 +1,6 @@
 import authorPhoto from "@/assets/author-photo.png";
 import ScrollReveal from "./ScrollReveal";
+import { Instagram, Linkedin } from "lucide-react";
 
 const AboutAuthorSection = () => (
   <section className="border-t border-border py-20">
