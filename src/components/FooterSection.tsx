@@ -1,4 +1,5 @@
 import { Instagram, Linkedin } from "lucide-react";
+import logoAssedionet from "@/assets/logo-assedionet.png";
 
 const FooterSection = () => (
   <footer className="border-t border-border py-10">
@@ -25,14 +26,16 @@ const FooterSection = () => (
       <p className="mt-1 font-body text-xs text-muted-foreground">
         © 2026 · Todos os direitos reservados
       </p>
-      <a
-        href="https://pixel-perfect-clone-5596.lovable.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-block font-body text-sm font-medium text-gold underline underline-offset-4 transition-colors hover:text-gold-hover"
-      >
-        Conheça também o Guia "Quando Ela Fala, Todo Mundo Ouve"
-      </a>
+      <div className="mt-6 flex flex-col items-center gap-2">
+        <p className="font-body text-xs text-muted-foreground/60 uppercase tracking-widest">Publicado por</p>
+        <a href="https://assed.io" target="_blank" rel="noopener noreferrer">
+          <img
+            src={logoAssedionet}
+            alt="Assédio.net Editora"
+            className="h-7 opacity-70 transition-opacity hover:opacity-100"
+          />
+        </a>
+      </div>
     </div>
   </footer>
 );

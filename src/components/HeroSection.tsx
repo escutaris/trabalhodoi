@@ -23,7 +23,7 @@ const HeroSection = () => (
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <a
-                href="https://amzn.to/46Koplt"
+                href="https://amzn.to/4dPYuLI"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-lg bg-gold px-7 py-3.5 font-body text-sm font-semibold text-primary-foreground transition-colors hover:bg-gold-hover"
