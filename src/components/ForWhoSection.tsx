@@ -21,7 +21,7 @@ const ForWhoSection = () => (
       <div className="grid gap-5 sm:grid-cols-2">
         {items.map((item, i) => (
           <ScrollReveal key={i} delay={i * 0.06}>
-            <div className="flex items-start gap-3 rounded-lg border border-border bg-card p-5">
+            <div className="flex cursor-default items-start gap-3 rounded-lg border border-border bg-card p-5 transition-all duration-200 hover:-translate-y-1 hover:border-gold/40 hover:shadow-md active:scale-[0.98] active:shadow-sm">
               <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-gold" />
               <p className="font-body text-sm leading-relaxed text-foreground/85">{item}</p>
             </div>

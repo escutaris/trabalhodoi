@@ -27,7 +27,7 @@ const TestimonialsSection = () => (
           O que os leitores dizem
         </h2>
       </ScrollReveal>
-      <div className="grid gap-8 md:grid-cols-3">
+      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {testimonials.map((t, i) => (
           <ScrollReveal key={t.name} delay={i * 0.1}>
             <div className="flex h-full flex-col rounded-xl border border-border bg-card p-7">
