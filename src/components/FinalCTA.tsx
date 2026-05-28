@@ -29,7 +29,7 @@ const FinalCTA = () => (
             <img
               src={logoAssedionet}
               alt="Assédio.net Editora"
-              className="h-5 opacity-60 transition-opacity hover:opacity-90"
+              className="h-8 opacity-60 transition-opacity hover:opacity-90"
             />
           </a>
         </div>
