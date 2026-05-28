@@ -1,5 +1,5 @@
 import { Instagram, Linkedin } from "lucide-react";
-import logoAssedionet from "@/assets/logo-assedionet.png";
+import logoAssedionet from "@/assets/logo-assedionet.webp";
 
 const FooterSection = () => (
   <footer className="border-t border-border py-10">
