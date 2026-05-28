@@ -6,6 +6,7 @@ const outlets = [
   { name: "Rádio CBN", description: "Fatores psicossociais e NR-1 em vigor — entrevista técnica" },
   { name: "TV Aratu / TVE Bahia", description: "Síndrome do impostor, adoecimento silencioso e cultura organizacional" },
   { name: "CBN Salvador", description: "Redução de acidentes de trabalho e saúde emocional nas empresas" },
+  { name: "TVE Bahia", description: "Saúde mental vira obrigação nas empresas brasileiras — o que a legislação exige e o que ainda falta nas práticas organizacionais." },
 ];
 
 const PressSection = () => (
