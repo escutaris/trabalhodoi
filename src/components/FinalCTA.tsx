@@ -22,7 +22,7 @@ const FinalCTA = () => (
           Comprar na Amazon
         </a>
         <p className="mt-5 font-body text-xs text-muted-foreground">
-          Disponível em versão física e digital · Editora AssedioNet
+          Livro impresso · Editora AssedioNet
         </p>
         <div className="mt-3 flex justify-center">
           <a href="https://assed.io" target="_blank" rel="noopener noreferrer">

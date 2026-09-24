@@ -1,5 +1,5 @@
 import TopBar from "@/components/TopBar";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/HeroSectionRH";
 import ProblemSection from "@/components/ProblemSection";
 import AboutBookSection from "@/components/AboutBookSection";
 import ForWhoSection from "@/components/ForWhoSection";
