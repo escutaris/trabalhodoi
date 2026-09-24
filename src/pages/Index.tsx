@@ -1,8 +1,10 @@
 import TopBar from "@/components/TopBar";
 import HeroSection from "@/components/HeroSectionRH";
+import PrefacioSection from "@/components/PrefacioSection";
 import ProblemSection from "@/components/ProblemSection";
-import AboutBookSection from "@/components/AboutBookSection";
+import InsideBookSection from "@/components/InsideBookSection";
 import ForWhoSection from "@/components/ForWhoSection";
+import ProTestimonialsSection from "@/components/ProTestimonialsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutAuthorSection from "@/components/AboutAuthorSection";
 import PressSection from "@/components/PressSection";
@@ -13,9 +15,11 @@ const Index = () => (
   <>
     <TopBar />
     <HeroSection />
+    <PrefacioSection />
     <ProblemSection />
-    <AboutBookSection />
+    <InsideBookSection />
     <ForWhoSection />
+    <ProTestimonialsSection />
     <TestimonialsSection />
     <AboutAuthorSection />
     <PressSection />
