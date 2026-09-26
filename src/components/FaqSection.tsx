@@ -11,10 +11,6 @@ const faqs = [
     a: "Sim. Boa parte do livro trata da forma de gerir: metas, cobrança, papéis mal definidos, o jeito de conduzir a equipe. É onde o líder tem mais poder de mudar as coisas.",
   },
   {
-    q: "Tem exercícios, testes ou checklists?",
-    a: "Não. É um livro de reflexão e embasamento, com histórias reais, a análise das causas do adoecimento e propostas de gestão para discutir na sua organização.",
-  },
-  {
     q: "O livro ensina a cumprir a NR-1?",
     a: "Não é um manual da norma. O livro mostra o que está por trás dos riscos psicossociais que as empresas precisam incluir no PGR desde a atualização da NR-1, e por que o diagnóstico correto vem antes de qualquer ação. A adequação de cada empresa pede um processo técnico próprio.",
   },
