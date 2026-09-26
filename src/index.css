@@ -94,3 +94,43 @@
     text-wrap: balance;
   }
 }
+
+/* Amostra do livro: bloco com cara de página impressa */
+.excerpt-page {
+  background: #f7f2e7;
+  color: #2a2622;
+}
+.excerpt-text {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  text-align: left;
+  text-indent: 1.5em;
+  margin-bottom: 0.9em;
+}
+@media (min-width: 768px) {
+  .excerpt-text {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-indent: 2em;
+  }
+}
+.excerpt-text:first-of-type {
+  text-indent: 0;
+}
+.excerpt-text sup {
+  font-size: 0.65em;
+  line-height: 0;
+}
+.excerpt-dropcap {
+  float: left;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 700;
+  font-size: 3.4em;
+  line-height: 0.85;
+  padding: 0.06em 0.1em 0 0;
+}
+.excerpt-fade {
+  background: linear-gradient(to bottom, rgba(247, 242, 231, 0), #f7f2e7 70%);
+}

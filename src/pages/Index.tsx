@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSectionRH";
 import PrefacioSection from "@/components/PrefacioSection";
 import ProblemSection from "@/components/ProblemSection";
 import InsideBookSection from "@/components/InsideBookSection";
+import ExcerptSection from "@/components/ExcerptSection";
 import ForWhoSection from "@/components/ForWhoSection";
 import ProTestimonialsSection from "@/components/ProTestimonialsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -20,6 +21,7 @@ const Index = () => (
     <PrefacioSection />
     <ProblemSection />
     <InsideBookSection />
+    <ExcerptSection />
     <ForWhoSection />
     <ProTestimonialsSection />
     <TestimonialsSection />

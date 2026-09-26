@@ -1,5 +1,4 @@
 import ScrollReveal from "./ScrollReveal";
-import BuyButton from "./BuyButton";
 import { Check } from "lucide-react";
 import logoAssedionet from "@/assets/logo-assedionet.webp";
 
@@ -69,9 +68,7 @@ const InsideBookSection = () => (
         </div>
       </div>
 
-      <BuyButton className="mt-12" />
-
-      <div className="mt-10 flex items-center justify-center gap-3">
+      <div className="mt-12 flex items-center justify-center gap-3">
         <span className="font-body text-xs text-muted-foreground/70">Publicado pela</span>
         <a href="https://assed.io" target="_blank" rel="noopener noreferrer">
           <img
