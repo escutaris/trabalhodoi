@@ -2,21 +2,24 @@ import ScrollReveal from "./ScrollReveal";
 import BuyButton from "./BuyButton";
 import { Star } from "lucide-react";
 
+const REVIEWS_URL = "https://www.amazon.com.br/product-reviews/6598341957/?tag=quandootrabal-20";
+
+// Trechos fiéis das avaliações na Amazon; cortes marcados com [...].
 const testimonials = [
   {
     name: "Ástoni Gouveia",
     title: "Uma Reflexão Necessária Sobre o Adoecimento Ocupacional",
-    text: "O livro vai além da simples descrição de sintomas. Oferece uma análise madura e sensível sobre como o adoecimento profissional se instala de maneira silenciosa. O livro é extremamente rico e já recomendei para algumas pessoas próximas.",
+    text: "O livro vai além da simples descrição de sintomas ou da crítica às pressões corporativas [...]. Já no caso da Clara, a reflexão de que “muitas vezes a maior força está em reconhecer a própria vulnerabilidade e buscar o apoio de que precisamos” ecoou forte por aqui. Outro trecho que me atravessou profundamente foi a reflexão sobre o poder das palavras, na página 245.",
   },
   {
-    name: "Roseli Oliveira Reis",
-    title: "Quando o trabalho dói, precisamos nos movimentar e fazer a mudança acontecer.",
-    text: "Super recomendo. Esse livro nos remete a muitas realidades e traz uma reflexão importante e profunda sobre nosso papel como indivíduo e como líder: a importância do cuidado genuíno.",
+    name: "Renata Carretti de Queiroz",
+    title: "Livro incrível!",
+    text: "Esse [livro] é incrível, com casos reais que nos identificamos, com números estatísticos e muito bem fundamentado. [...] A abordagem da Dra. Ana Paulla é extremamente acolhedora.",
   },
   {
-    name: "Daniela Facchinetti",
-    title: "Livro maravilhoso",
-    text: "Escrito por uma profissional muito competente e sensível. Indico a todos que queiram olhar para suas vidas, refletir sobre as dores do trabalho, e também aos que atuam numa área que possibilite ajudar aos colaboradores de uma organização.",
+    name: "Patricia V. C. Quispe",
+    title: "Leitura obrigatória!",
+    text: "Um livro maravilhoso que nos acolhe a cada página, porque todos nós somos trabalhadores. A escritora entra em assuntos difíceis do mundo do trabalho e nos explica as emoções que envolvem as relações interpessoais entre trabalhadores e gestores.",
   },
 ];
 
@@ -51,7 +54,18 @@ const TestimonialsSection = () => (
           </ScrollReveal>
         ))}
       </div>
-      <BuyButton className="mt-12" />
+      <p className="mt-10 text-center">
+        <a
+          href={REVIEWS_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-no-checkout
+          className="font-body text-sm font-semibold text-gold underline-offset-4 hover:underline"
+        >
+          Ler todas as 25 avaliações na Amazon ↗
+        </a>
+      </p>
+      <BuyButton className="mt-8" />
     </div>
   </section>
 );

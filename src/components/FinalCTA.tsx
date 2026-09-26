@@ -7,7 +7,10 @@ const FinalCTA = () => (
     <div className="container text-center">
       <ScrollReveal>
         <h2 className="mb-3 text-3xl font-bold md:text-4xl">O trabalho não precisa doer.</h2>
-        <p className="mb-10 font-body text-lg text-muted-foreground">Comece por aqui.</p>
+        <p className="mx-auto mb-10 max-w-xl font-body text-lg leading-relaxed text-muted-foreground">
+          <em>Quando o Trabalho Dói</em>, da Dra. Ana Paula Teixeira, para quem lidera ou atua no RH e quer
+          enxergar os sinais de adoecimento antes do afastamento.
+        </p>
         <img
           src={bookCover}
           alt="Capa do livro"
@@ -19,12 +22,15 @@ const FinalCTA = () => (
           rel="noopener noreferrer"
           className="inline-flex items-center rounded-lg bg-gold px-10 py-4 font-body text-base font-semibold text-primary-foreground transition-colors hover:bg-gold-hover"
         >
-          Comprar na Amazon
+          Comprar na Amazon · R$ 89,00
         </a>
-        <p className="mt-5 font-body text-xs text-muted-foreground">
-          Livro impresso · Editora AssedioNet
+        <p className="mt-5 font-body text-sm text-foreground/75">
+          Livro impresso · 300 páginas · Editora AssedioNet
         </p>
-        <div className="mt-3 flex justify-center">
+        <p className="mt-1 font-body text-xs text-muted-foreground">
+          Frete e prazo aparecem na Amazon, de acordo com o seu CEP.
+        </p>
+        <div className="mt-4 flex justify-center">
           <a href="https://assed.io" target="_blank" rel="noopener noreferrer">
             <img
               src={logoAssedionet}

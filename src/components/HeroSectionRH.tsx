@@ -80,10 +80,10 @@ const HeroSectionRH = () => (
                 Comprar na Amazon · R$ 89,00
               </a>
               <a
-                href="#sobre-o-livro"
+                href="#amostra"
                 className="inline-flex items-center justify-center rounded-lg border border-foreground/20 px-7 py-3.5 font-body text-sm font-semibold text-foreground transition-colors hover:bg-foreground/5"
               >
-                Ver o que tem dentro
+                Ler as primeiras páginas
               </a>
             </div>
             <p className="font-body text-xs text-muted-foreground">

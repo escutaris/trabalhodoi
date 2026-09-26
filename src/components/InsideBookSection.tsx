@@ -6,7 +6,7 @@ const learnings = [
   "Seis histórias de quem adoeceu no trabalho, como a de Mônica, profissional exemplar que se viu desacreditada depois da chegada de um novo gestor.",
   "O que a empresa “instagramável” esconde: assédio moral velado, sobrecarga, papéis confusos e exigências que se contradizem.",
   "Os sinais de desgaste que aparecem na equipe muito antes do atestado, e como reconhecê-los cedo.",
-  "Por que o modelo taylorista ainda pesa na gestão, e o que muda quando a liderança sai da rigidez.",
+  "Por que a gestão ainda trata pessoas como peças de uma linha de produção, e o que muda quando a liderança sai da rigidez.",
   "Como fazer o diagnóstico correto dos fatores psicossociais, o primeiro passo para gerir o risco.",
   "Propostas de gestão que conciliam metas de produtividade com cuidado de verdade com as pessoas.",
 ];

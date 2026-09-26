@@ -4,7 +4,7 @@ import PrefacioSection from "@/components/PrefacioSection";
 import ProblemSection from "@/components/ProblemSection";
 import InsideBookSection from "@/components/InsideBookSection";
 import ExcerptSection from "@/components/ExcerptSection";
-import ForWhoSection from "@/components/ForWhoSection";
+import UtilitySection from "@/components/UtilitySection";
 import ProTestimonialsSection from "@/components/ProTestimonialsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutAuthorSection from "@/components/AboutAuthorSection";
@@ -18,11 +18,11 @@ const Index = () => (
   <>
     <TopBar />
     <HeroSection />
-    <PrefacioSection />
     <ProblemSection />
-    <InsideBookSection />
+    <UtilitySection />
     <ExcerptSection />
-    <ForWhoSection />
+    <InsideBookSection />
+    <PrefacioSection />
     <ProTestimonialsSection />
     <TestimonialsSection />
     <AboutAuthorSection />
