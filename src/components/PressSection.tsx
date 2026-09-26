@@ -6,7 +6,6 @@ const outlets = [
     description: "Mulheres ganham 21% menos e representam 60% dos casos de burnout no país",
     url: "https://www.cartacapital.com.br/do-micro-ao-macro/mulheres-ganham-21-menos-burnout-desigualdade/",
   },
-  { name: "GloboNews", description: "Saúde mental nas empresas e o que muda com a nova regulamentação" },
   {
     name: "Rádio CBN Bahia",
     description: "Redução de acidentes de trabalho",
