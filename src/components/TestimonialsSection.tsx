@@ -10,7 +10,7 @@ const testimonials = [
   {
     name: "Roseli Oliveira Reis",
     title: "Quando o trabalho dói, precisamos nos movimentar e fazer a mudança acontecer.",
-    text: "Super recomendo. Esse livro nos remete a muitas realidades e traz uma reflexão importante e profunda sobre nosso papel como indivíduo e como líder — a importância do cuidado genuíno.",
+    text: "Super recomendo. Esse livro nos remete a muitas realidades e traz uma reflexão importante e profunda sobre nosso papel como indivíduo e como líder: a importância do cuidado genuíno.",
   },
   {
     name: "Daniela Facchinetti",

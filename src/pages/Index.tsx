@@ -10,6 +10,7 @@ import AboutAuthorSection from "@/components/AboutAuthorSection";
 import PressSection from "@/components/PressSection";
 import FinalCTA from "@/components/FinalCTA";
 import FooterSection from "@/components/FooterSection";
+import StickyBuyBar from "@/components/StickyBuyBar";
 
 const Index = () => (
   <>
@@ -25,6 +26,7 @@ const Index = () => (
     <PressSection />
     <FinalCTA />
     <FooterSection />
+    <StickyBuyBar />
   </>
 );
 
