@@ -3,9 +3,17 @@ import ScrollReveal from "./ScrollReveal";
 import { Star } from "lucide-react";
 
 const AMAZON_URL = "https://amzn.to/4dPYuLI";
+const REVIEWS_URL = "https://www.amazon.com.br/product-reviews/6598341957/?tag=quandootrabal-20";
 
 const Rating = () => (
-  <div className="flex items-center gap-2">
+  <a
+    href={REVIEWS_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    data-no-checkout
+    title="Ler as avaliações na Amazon"
+    className="flex items-center gap-2 transition-opacity hover:opacity-80"
+  >
     <div className="flex gap-0.5">
       {[...Array(5)].map((_, i) => (
         <Star key={i} className="h-4 w-4 fill-gold text-gold" />
@@ -13,7 +21,7 @@ const Rating = () => (
     </div>
     <span className="font-body text-sm font-semibold text-foreground">5,0</span>
     <span className="font-body text-sm text-muted-foreground">· 25 avaliações<span className="hidden md:inline"> na Amazon</span></span>
-  </div>
+  </a>
 );
 
 const HeroSectionRH = () => (
@@ -30,8 +38,9 @@ const HeroSectionRH = () => (
               O adoecimento no trabalho começa muito antes do primeiro atestado.
             </h1>
             <p className="max-w-lg font-body text-base leading-relaxed text-muted-foreground md:text-lg">
-              Um livro para quem lidera e precisa reconhecer os sinais cedo, entender o que na
-              organização do trabalho provoca o problema e agir antes do afastamento.
+              Histórias reais de quem adoeceu no trabalho mostram onde o desgaste começa: na
+              sobrecarga, no papel que ninguém definiu, no gestor que desacredita a equipe. Um livro
+              para quem lidera ou atua no RH e quer enxergar esses sinais antes do afastamento.
             </p>
 
             <p className="max-w-lg border-l-2 border-gold pl-4 font-body text-sm leading-relaxed text-foreground/80">
@@ -49,7 +58,7 @@ const HeroSectionRH = () => (
               <div className="space-y-1.5">
                 <p className="font-serif text-base font-bold leading-snug">Quando o Trabalho Dói</p>
                 <p className="font-body text-xs text-muted-foreground">
-                  Dra. Ana Paula Teixeira, médica do trabalho
+                  Dra. Ana Paula Teixeira, médica do trabalho há mais de 30 anos
                 </p>
                 <Rating />
               </div>

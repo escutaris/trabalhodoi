@@ -2,12 +2,12 @@ import ScrollReveal from "./ScrollReveal";
 import { Check } from "lucide-react";
 
 const items = [
-  "Você lidera equipes e quer criar um ambiente psicologicamente seguro",
-  "Você atua em RH ou saúde ocupacional e precisa de embasamento prático",
-  "Você sentiu que o trabalho começou a custar mais do que deveria",
-  "Você quer entender o adoecimento antes de tratá-lo",
-  "Você busca uma abordagem que una ciência e humanidade",
-  "Você acredita que bem-estar e produtividade não são opostos",
+  "Você vê desgaste na equipe e não consegue apontar de onde ele vem",
+  "Os afastamentos aumentaram e cada caso parece um problema individual",
+  "Você atua no RH e precisa falar de saúde mental com gestores que só olham a meta",
+  "Você lidera e quer entender o que, na sua forma de gerir, pesa sobre as pessoas",
+  "Sua empresa está revendo o PGR por causa da NR-1 e você quer entender o que está por trás dos riscos psicossociais",
+  "Você precisa de argumentos para levar o tema à diretoria",
 ];
 
 const ForWhoSection = () => (

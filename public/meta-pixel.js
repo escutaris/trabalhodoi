@@ -22,7 +22,7 @@
 
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a');
-    if (a && window.fbq && /amzn\.to|amazon\./.test(a.href)) window.fbq('track', 'InitiateCheckout');
+    if (a && window.fbq && !a.hasAttribute('data-no-checkout') && /amzn\.to|amazon\./.test(a.href)) window.fbq('track', 'InitiateCheckout');
   });
 
   function mostrarAviso() {

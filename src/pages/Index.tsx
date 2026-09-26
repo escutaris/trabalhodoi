@@ -8,6 +8,7 @@ import ProTestimonialsSection from "@/components/ProTestimonialsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutAuthorSection from "@/components/AboutAuthorSection";
 import PressSection from "@/components/PressSection";
+import FaqSection from "@/components/FaqSection";
 import FinalCTA from "@/components/FinalCTA";
 import FooterSection from "@/components/FooterSection";
 import StickyBuyBar from "@/components/StickyBuyBar";
@@ -24,6 +25,7 @@ const Index = () => (
     <TestimonialsSection />
     <AboutAuthorSection />
     <PressSection />
+    <FaqSection />
     <FinalCTA />
     <FooterSection />
     <StickyBuyBar />

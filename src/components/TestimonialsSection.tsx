@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import BuyButton from "./BuyButton";
 import { Star } from "lucide-react";
 
 const testimonials = [
@@ -50,6 +51,7 @@ const TestimonialsSection = () => (
           </ScrollReveal>
         ))}
       </div>
+      <BuyButton className="mt-12" />
     </div>
   </section>
 );
